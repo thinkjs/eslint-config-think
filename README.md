@@ -21,6 +21,6 @@ In your `.eslintrc` file, add:
 
 ```
 {
-    "extends": "eslint"
+    "extends": "think"
 }
 ```
