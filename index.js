@@ -176,6 +176,14 @@ module.exports = {
     "yield-star-spacing": ["error", "both"],
     "yoda": ["error", "never"],
 
+    "no-restricted-properties": [2, {
+      "property": "__defineGetter__",
+      "message": "Please use Object.defineProperty instead."
+    },{
+      "property": "__defineSetter__",
+      "message": "Please use Object.defineProperty instead."
+    }],
+
     "import/export": "error",
     "import/first": "error",
     "import/no-duplicates": "error",
